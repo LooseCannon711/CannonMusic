@@ -5,7 +5,7 @@ const ytdl = require('ytdl-core');
 
 const client = new Client({ disableEveryone: true });
 
-const youtube = new YouTube(process.env.GOOGLE);
+const youtube = new YouTube('AIzaSyB2Feh1ohPhmPxqx9d6Rug5-RBzz5b0Z2M');
 
 const queue = new Map();
 
